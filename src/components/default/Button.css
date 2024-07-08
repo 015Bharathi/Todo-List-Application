@@ -1,0 +1,123 @@
+.custom-button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.custom-button.outline {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(228, 228, 228);
+}
+
+.custom-button.primary {
+  display: flex;
+  align-items: center;
+  color: rgb(204, 204, 204);
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgb(222, 76, 74);
+}
+
+.custom-button.error:disabled {
+  cursor: not-allowed;
+  color: #797979;
+  background-color: #4C2827;
+}
+
+.custom-button.primary span {
+  display: block;
+  display: flex;
+  margin-right: 8px;
+  font-size: 20px;
+  color: rgb(222, 76, 74);
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgb(222, 76, 74);
+}
+
+.custom-button.primary:hover {
+  color: rgb(222, 76, 74);
+}
+
+.custom-button.primary span:hover {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  background-color: rgb(222, 76, 74);
+  border-radius: 50%;
+}
+
+.custom-button.rounded {
+  color: #fff;
+  padding: 7px 15px;
+  background-color: blue;
+}
+
+.custom-button.secondary {
+  color: rgb(228, 228, 228);
+  padding: 7px 14px;
+  outline-color: rgb(228, 228, 228);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  margin-bottom: 5px;
+  background-color: rgb(41, 41, 41) /* background-color: #262626; */;
+}
+
+.custom-button.secondary:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+.custom-button.error {
+  color: #ffffff;
+  padding: 7px 14px;
+  /* outline-color: rgb(228, 228, 228); */
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  margin-bottom: 5px;
+  background-color: #de4c4a;
+}
+
+.todo-text {
+  cursor: pointer;
+}
+
+/* .button-container {
+  display: none;
+}
+
+.todo-item:hover ~.button-container {
+  display: block;
+}
+
+.button-container {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.todo-item:hover + .button-container .custom-button.custom-button.outline {
+  opacity: 1;
+}
+
+
+.todo-item:hover{
+  cursor: pointer;
+} */
+
+
+
+.todo-item {
+  transition: background-color 0.3s ease;
+}
+
+.todo-item:hover{
+  cursor: pointer;
+}
+
+.button-container {
+  visibility: hidden;
+  transition: visibility 0.3s ease;
+}
+
+.todo-item:hover .button-container{
+  visibility: visible;
+}

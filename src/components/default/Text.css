@@ -1,0 +1,110 @@
+.custom-text {
+    letter-spacing: 1px;
+    /* font-weight: bold;
+    font-style: italic; */
+}
+
+
+.custom-text.white{
+    color:#CCCCCC;
+    margin-top: 3px;
+}
+
+.custom-text.info{
+    color:#FFFFFF
+}
+
+.custom-text.secondary{
+    color: rgb(204, 204, 204);
+
+}
+.custom-text.success{
+    color: blue;
+
+}
+
+.custom-text.secondary{
+    display: flex;
+    /* align-items: center; */
+    padding: 1px;
+    gap: 1;
+
+}
+
+.custom-text span{
+   margin-top: 1.5px;
+   padding: 1px;
+}
+
+.custom-text p {
+    margin-left:3px;
+}
+.custom-text.primary{
+    color:#EA7066;
+}
+
+.default-font{
+    font-size: medium;
+}
+
+.xs{
+    font-size: 6px;
+}
+
+.sm{
+    font-size: 8px;
+}
+
+.md{
+    font-size: 10px;
+}
+
+.lg{
+    font-size: 12px;
+}
+
+.xl{
+    font-size: 14px;
+}
+
+.\32xl{
+    font-size: 16px;
+}
+
+.\33xl{
+    font-size: 20px;
+}
+
+.\34xl{
+    font-size: 26px;
+}
+
+.\35xl{
+    font-size: 36px;
+}
+
+.\36xl{
+    font-size: 48px;
+}
+
+
+
+.custom-fontWeight {
+    font-weight: lighter;
+}
+
+
+.custom-fontWeight.bold{
+    font-weight: bold;
+}
+.custom-fontWeight.regular{
+    font-weight: 400;
+}
+
+.custom-fontWeight.normal{
+    font-weight: 600;
+}
+
+.custom-fontWeight.extraBold{
+    font-weight: 700;
+}

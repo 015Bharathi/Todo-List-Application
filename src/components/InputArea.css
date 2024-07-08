@@ -1,0 +1,39 @@
+.custom-input {
+    font-weight: bold;
+    padding: 6px 10px;
+    width: 90%;
+}
+
+
+
+.custom-input.outlined{
+    background-color: #1E1E1E;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.custom-input.filled{
+    background-color:rgb(196, 191, 191);
+    color:black;
+    margin-top: 10px;
+    width: 400px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    padding-left:40px;
+
+}
+
+
+
+.custom-input.standard{
+    background-color: #1E1E1E;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
